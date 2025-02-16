@@ -28,6 +28,9 @@ git checkout master       // Switched to branch 'master'
 git merge urgent          // Now we merge the current branch (master) with emergency-fix:
 git branch -d urgent      // we can delete emergency-fix, as it is no longer needed:
 
+
+
+
 git touch .ignore         // Creates a Git ignore file 
 touch app.js              // Creates a fle app.js
 
@@ -36,7 +39,11 @@ git log                   // To view the history of commits for a repository, yo
 clear                     // Clears the screen 
 
 WORKING WITH GITHUB
+git remote add origin URL // Add Folder origin to GITHUB 
 git push                  // Push to rem Repo (credentials or SSH keys required)
+git push --set-upstream origin master // push everything to GITHUB
+
+git fetch origin          // So, on your local Git, fetch updates to see what has changed on GitHub:
 git pull                  // Pull latest from rem Repo
 git clone                 // Clones a rem Repo to your machine
 git branch mybranch       // Creates a branch named mybranch
