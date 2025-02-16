@@ -19,7 +19,7 @@ git commit                // Commit changes to index (Puts everything in to the 
 git commit -m 'message'   // Commits with message includedgit commit -m
 git commit -a -m 'msg'    // Commit changes directly
 
-git branch Hello-World    // Now we created a new branch called "Hello-World
+git branch Hello-World    // Creates a new branch called "Hello-World
 git branch                // Shows the branches
 git checkout Hello-World  // checkout is used to check out a branch. from the curr. branch, to Hello-World :
 git checkout -b urgent    // Using the -b option on checkout will create a new branch, and move to it
@@ -32,20 +32,18 @@ WORKING WITH GITHUB
 git remote add origin URL // Add Folder origin to GITHUB 
 get fetch origin          // Get all the change history of the origin for this branch:
 git fetch origin          // So, on your local Git, fetch updates to see what has changed on GitHub:
-git push                  // Push to rem Repo (credentials or SSH keys required)
 
 git push --set-upstream origin master // push everything to GITHUB
+git push                  // Push to rem Repo (credentials or SSH keys required)
 
-git merge origin/master   //  and we can merge our current branch (master) with origin/master:
-git merge origin/master   //Merge the current branch with the branch master, on origin:
-
+git merge origin/master   // We can merge our current branch (master) with origin/master:
+git merge origin/master   // Merge the current branch with the branch master, on origin:
 
 git pull                  // Pull latest from rem Repo to the current Branch
 git pull origin           // Use pull to update our local Git:
 git clone                 // Clones a rem Repo to your machine
-git branch mybranch       // Creates a branch named mybranch
 
-git touch .ignore         // Creates a Git ignore file 
+touch .ignore             // Creates a Git ignore file 
 touch app.js              // Creates a fle app.js
 
 git rm --cached <file>    // Unstage or delete from staging area
