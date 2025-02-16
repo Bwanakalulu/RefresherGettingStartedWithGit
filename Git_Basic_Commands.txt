@@ -13,6 +13,7 @@ git add .                 // ads everything to the staging area
 git add *.html            // will add all html files to the staging area 
 
 git commit                // Commit changes to index (Puts everything in to the local repo)
+git commit -a             // Commit changes directly
 git touch .ignore         // Creates a Git ignore file 
 touch app.js              // Creates a fle app.js
 git commit -m 'message'   // Commits with message includedgit commit -m
