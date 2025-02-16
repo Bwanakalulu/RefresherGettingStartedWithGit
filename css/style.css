@@ -1,0 +1,36 @@
+:root {
+	--Zambia-green-color: #198a00;
+	--Zambia-orange-color: #ef7d00;
+	--Zambia-black-color: #000000;
+	--Zambia-red-color: #de2010;
+
+	--Zambia-green-pantone-color: #009e49;
+	--Zambia-orange-pantone-color: #fcad56;
+	--Zambia-black-pantone-color: #000000;
+	--Zambia-red-pantonei-color: #ef3340;
+
+	/* CSS By coolors.co */
+	--vermilion: #df1a07ff;
+	--tangerine: #ee7d00ff;
+	--chocolate-traditional: #7f4400ff;
+	--india-green: #128b00ff;
+	--dark-jungle-green: #0a1400ff;
+
+	--primary-background-color: #b21960;
+	--secondary-background-color: #00adb5;
+	--third-background-color: #eeeeee;
+	--fourth-background-color: #ff5722;
+	--primary-text-color: #49e39c;
+	--secondary-text-color: #757575;
+	--divider-color: #bdbdbd;
+	--icon-color: #000000;
+}
+body {
+	background-color: var(--Zambia-black-color);
+	color: var(--Zambia-orange-color);
+}
+
+h1 {
+	color: var(--Zambia-orange-pantone-color);
+	margin-left: 20px;
+}
