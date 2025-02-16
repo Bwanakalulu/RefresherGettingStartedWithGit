@@ -1,6 +1,9 @@
 BASIC COMMANDS
 
 git --version             // Checks if Git is installed and shows Version Nr.
+git command -help         //see all the available options for the specific command
+git help -all             //see all commands. If you're'stuck, SHIFT + G to jump the end ,  q to exit
+
 git config --global user.name "username" // Configure Git
 git config --global user.email "12345@gmail.com" // Configure Git
 
@@ -13,11 +16,19 @@ git add .                 // ads everything to the staging area
 git add *.html            // will add all html files to the staging area 
 
 git commit                // Commit changes to index (Puts everything in to the local repo)
-git commit -a             // Commit changes directly
+git commit -m 'message'   // Commits with message includedgit commit -m
+git commit -a -m 'msg'    // Commit changes directly
+
+git branch Hello-World    // Now we created a new branch called "Hello-World
+git branch                // Shows the branches
+git checkout Hello-World  // checkout is used to check out a branch. from the curr. branch, to Hello-World :
+
+
 git touch .ignore         // Creates a Git ignore file 
 touch app.js              // Creates a fle app.js
-git commit -m 'message'   // Commits with message includedgit commit -m
+
 git rm --cached <file>    // Unstage or delete from staging area
+git log                   // To view the history of commits for a repository, you can use the log command:
 clear                     // Clears the screen 
 
 WORKING WITH GITHUB
