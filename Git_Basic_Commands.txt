@@ -22,6 +22,7 @@ git commit -a -m 'msg'    // Commit changes directly
 git branch Hello-World    // Now we created a new branch called "Hello-World
 git branch                // Shows the branches
 git checkout Hello-World  // checkout is used to check out a branch. from the curr. branch, to Hello-World :
+git checkout -b urgent    //Using the -b option on checkout will create a new branch, and move to it
 
 
 git touch .ignore         // Creates a Git ignore file 
