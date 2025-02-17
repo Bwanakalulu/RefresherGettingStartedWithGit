@@ -55,7 +55,7 @@ git branch -d urgent      // we can delete emergency-fix, as it is no longer nee
 # WORKING WITH GITHUB
 git remote add origin URL // Add Folder origin to GITHUB 
 
-get fetch origin          // Get all the change history of the origin for this branch:
+git fetch origin          // Get all the change history of the origin for this branch:
 
 git fetch origin          // So, on your local Git, fetch updates to see what has changed on GitHub:
 
