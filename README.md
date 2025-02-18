@@ -7,6 +7,11 @@ git command -help         //see all the available options for the specific comma
 
 git help -all             //see all commands. If you're'stuck, SHIFT + G to jump the end ,  q to exit
 
+$ git config --global init.defaultBranch // show default main branch
+
+$ git config --global init.defaultBranch main // create new default main branch called main
+
+
 # Create Files 
 
 touch .ignore             // Creates a Git ignore file 
