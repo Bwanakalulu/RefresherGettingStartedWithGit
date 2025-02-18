@@ -83,5 +83,12 @@ git clone                 // Clones a rem Repo to your machine
 
 
 git rm --cached <file>    // Unstage or delete from staging area
+
 git log                   // To view the history of commits for a repository, you can use the log command:
+
 clear                     // Clears the screen 
+# SSH KEYS
+ssh-keygen -t rsa -b 4096  // Generate SSh Key
+
+cat ~/.ssh/id_Github.pub   // read Public Key
+
