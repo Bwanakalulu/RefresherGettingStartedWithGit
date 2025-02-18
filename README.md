@@ -41,7 +41,10 @@ git commit                // Commit changes to index (Puts everything in to the 
 
 git commit -m 'message'   // Commits with message includedgit commit -m
 
-git commit -a -m 'msg'    // Commit changes directly
+git commit -a -m 'msg'    // Add and Commit changes directly
+
+git commit -am 'msg'      // Add and Commit changes directly shorthand
+
 ## Branches
 git branch Hello-World    // Creates a new branch called "Hello-World
 
